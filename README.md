@@ -6,7 +6,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/qingshufan/GeneA-SLAM2.svg)](https://github.com/qingshufan/GeneA-SLAM2/stargazers)
 <a href="https://github.com/qingshufan/GeneA-SLAM2/network/members">
 <img alt="FORK" src="https://img.shields.io/github/forks/qingshufan/GeneA-SLAM2?color=white" />
-</a>  [![GitHub Issues](https://img.shields.io/github/issues/qingshufan/GeneA-SLAM.svg)](https://github.com/qingshufan/GeneA-SLAM2/issues) [![License](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://opensource.org/licenses/gpl-3-0)
+</a>  [![GitHub Issues](https://img.shields.io/github/issues/qingshufan/GeneA-SLAM2.svg)](https://github.com/qingshufan/GeneA-SLAM2/issues) [![License](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://opensource.org/licenses/gpl-3-0)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/genea-slam2-dynamic-slam-with-autoencoder/semantic-slam-on-tum-rgb-d)](https://paperswithcode.com/sota/semantic-slam-on-tum-rgb-d?p=genea-slam2-dynamic-slam-with-autoencoder)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/genea-slam2-dynamic-slam-with-autoencoder/semantic-slam-on-bonn-rgb-d-dynamic)](https://paperswithcode.com/sota/semantic-slam-on-bonn-rgb-d-dynamic?p=genea-slam2-dynamic-slam-with-autoencoder)
@@ -24,7 +24,7 @@ This paper introduces GeneA-SLAM2, an RGB-D SLAM system for dynamic environments
 We have collected the GeneA-SLAM RGB-D dataset compatible with the [TUM](https://cvg.cit.tum.de/data/datasets/rgbd-dataset/download) format using the  [ORBBEC Astra sensor](https://www.orbbec.com/products/structured-light-camera/astra-series/), including registered images, trajectories, and point clouds, which can be downloaded from [GeneA-SLAM](https://github.com/qingshufan/GeneA-SLAM).
 
 ## Prerequisites
-GeneA-SLAM is developed based on [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) and [NGD-SLAM](https://github.com/yuhaozhang7/NGD-SLAM). Tested on Ubuntu 18.04; compatible with other platforms. High-performance hardware is recommended for real-time stability. Below are the core dependencies (largely inherited from [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) and [NGD-SLAM](https://github.com/yuhaozhang7/NGD-SLAM) with minor optimizations):
+GeneA-SLAM2 is developed based on [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) and [NGD-SLAM](https://github.com/yuhaozhang7/NGD-SLAM). Tested on Ubuntu 18.04; compatible with other platforms. High-performance hardware is recommended for real-time stability. Below are the core dependencies (largely inherited from [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) and [NGD-SLAM](https://github.com/yuhaozhang7/NGD-SLAM) with minor optimizations):
 
 ### PCL (Point Cloud Library)
 For 3D point cloud processing, Install via package manager:
@@ -87,7 +87,7 @@ cd GeneA-SLAM2
 ```
 
 ### ROS mode
-We provide a ROS quick-run script. Before running, please modify **GeneA_SLAM2_PATH** (GeneA-SLAM path) and **ROSBAG_PATH** (ROS bag path) in the script. **PLAY_SPEED** (playback speed) depends on your computer's performance.
+We provide a ROS quick-run script. Before running, please modify **GeneA_SLAM2_PATH** (GeneA-SLAM2 path) and **ROSBAG_PATH** (ROS bag path) in the script. **PLAY_SPEED** (playback speed) depends on your computer's performance.
 ```bash
 cd GeneA-SLAM2
 chmod +x ros_run.sh
