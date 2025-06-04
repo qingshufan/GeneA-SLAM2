@@ -1,7 +1,7 @@
 <div align="center">
 <h3>GeneA-SLAM2: Dynamic SLAM with AutoEncoder-Preprocessed Genetic Keypoints Resampling and Depth Variance-Guided Dynamic Region Removal</h3>
 
-<a href=""><img src='https://img.shields.io/badge/Paper-GeneA--SLAM2-red' alt='Paper PDF'></a>
+<a href="https://arxiv.org/pdf/2506.02736"><img src='https://img.shields.io/badge/Paper-GeneA--SLAM2-red' alt='Paper PDF'></a>
 <a ><img alt="PRs-Welcome" src="https://img.shields.io/badge/PRs-Welcome-white" /></a>
 [![GitHub Stars](https://img.shields.io/github/stars/qingshufan/GeneA-SLAM2.svg)](https://github.com/qingshufan/GeneA-SLAM2/stargazers)
 <a href="https://github.com/qingshufan/GeneA-SLAM2/network/members">
@@ -105,7 +105,7 @@ If you find this project useful, please consider citing:
 @inproceedings{qing2024geneaslam2, 
       title={GeneA-SLAM2: Dynamic SLAM with AutoEncoder-Preprocessed Genetic Keypoints Resampling and Depth Variance-Guided Dynamic Region Removal}, 
       author={Shufan Qing and Anzhen Li and Qiandi Wang and Yuefeng Niu and Mingchen Feng and Guoliang Hu and Jinqiao Wu and Fengtao Nan and Yingchun Fan},
-      journal={arXiv preprint arXiv:submitted},
+      journal={arXiv preprint arXiv:2506.02736},
       year={2025}
 }
 ```
