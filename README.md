@@ -1,6 +1,6 @@
 <div align="center">
 <h3>GeneA-SLAM2: Dynamic SLAM with AutoEncoder-Preprocessed Genetic Keypoints Resampling and Depth Variance-Guided Dynamic Region Removal</h3>
-
+ 
 <a href="https://arxiv.org/pdf/2506.02736"><img src='https://img.shields.io/badge/Paper-GeneA--SLAM2-red' alt='Paper PDF'></a>
 <a ><img alt="PRs-Welcome" src="https://img.shields.io/badge/PRs-Welcome-white" /></a>
 [![GitHub Stars](https://img.shields.io/github/stars/qingshufan/GeneA-SLAM2.svg)](https://github.com/qingshufan/GeneA-SLAM2/stargazers)
