@@ -10,7 +10,9 @@
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/genea-slam2-dynamic-slam-with-autoencoder/semantic-slam-on-tum-rgb-d)](https://paperswithcode.com/sota/semantic-slam-on-tum-rgb-d?p=genea-slam2-dynamic-slam-with-autoencoder)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/genea-slam2-dynamic-slam-with-autoencoder/semantic-slam-on-bonn-rgb-d-dynamic)](https://paperswithcode.com/sota/semantic-slam-on-bonn-rgb-d-dynamic?p=genea-slam2-dynamic-slam-with-autoencoder)
-<!-- ![overview](assets/overview.png) -->
+
+![overview](assets/overview.png)
+
 </div>
 
 This paper introduces GeneA-SLAM2, an RGB-D SLAM system for dynamic environments. It eliminates dynamic object interference via depth statistical information and enhances keypoint distribution uniformity. Integrated with [NGD-SLAM](https://github.com/yuhaozhang7/NGD-SLAM), the system retains real-time performance without a GPU. Experimental results demonstrate that GeneA-SLAM2 maintains high accuracy in dynamic scenes compared to current methods.  
@@ -96,13 +98,13 @@ chmod +x ros_run.sh
 ORB-SLAM3 is released under a [GPLv3 license](https://github.com/UZ-SLAMLab/ORB_SLAM3/blob/master/LICENSE). So Our GeneA-SLAM2 are under the GPL-3.0 license.
 
 ## Acknowledgement
-We adapted some codes from some awesome repositories including [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3), [NGD-SLAM](https://github.com/yuhaozhang7/NGD-SLAM) and [ORBSLAM2_with_pointcloud_map](https://github.com/gaoxiang12/ORBSLAM2_with_pointcloud_map.git) Thanks for making codes publicly available. 
+We adapted some codes from some awesome repositories including [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3), [NGD-SLAM](https://github.com/yuhaozhang7/NGD-SLAM) and [ORBSLAM2_with_pointcloud_map](https://github.com/gaoxiang12/ORBSLAM2_with_pointcloud_map.git). Thanks for making codes publicly available. 
 
 ## Citation
 
 If you find this project useful, please consider citing:
 ```bibtex
-@inproceedings{qing2024geneaslam2, 
+@inproceedings{qing2025geneaslam2, 
       title={GeneA-SLAM2: Dynamic SLAM with AutoEncoder-Preprocessed Genetic Keypoints Resampling and Depth Variance-Guided Dynamic Region Removal}, 
       author={Shufan Qing and Anzhen Li and Qiandi Wang and Yuefeng Niu and Mingchen Feng and Guoliang Hu and Jinqiao Wu and Fengtao Nan and Yingchun Fan},
       journal={arXiv preprint arXiv:2506.02736},
