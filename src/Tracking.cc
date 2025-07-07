@@ -3683,6 +3683,10 @@ void Tracking::CreateNewKeyFrame()
 
 
     //**** qingshufan modified code start ****
+    
+    cv::Mat merged_mask;
+    cv::bitwise_or(mImOffsetMask, mImMask, merged_mask);
+    cv::bitwise_or(merged_mask, mImMapMask, merged_mask);
 
     cv::Mat new_mImDepth = mImDepth.clone();
     new_mImDepth.setTo(0, merged_mask == 1);
