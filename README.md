@@ -19,6 +19,7 @@
 This paper introduces GeneA-SLAM2, an RGB-D SLAM system for dynamic environments. It eliminates dynamic object interference via depth statistical information and enhances keypoint distribution uniformity. Integrated with [NGD-SLAM](https://github.com/yuhaozhang7/NGD-SLAM), the system retains real-time performance without a GPU. Experimental results demonstrate that GeneA-SLAM2 maintains high accuracy in dynamic scenes compared to current methods.  
 
 ## News
+- **2025-08-23:** Accept to PRCV 2025!
 - **2025-06-03:** Codes released!
 
 ## Our GeneA-SLAM datasets
@@ -108,6 +109,7 @@ If you find this project useful, please consider citing:
 @inproceedings{qing2025geneaslam2, 
       title={GeneA-SLAM2: Dynamic SLAM with AutoEncoder-Preprocessed Genetic Keypoints Resampling and Depth Variance-Guided Dynamic Region Removal}, 
       author={Shufan Qing and Anzhen Li and Qiandi Wang and Yuefeng Niu and Mingchen Feng and Guoliang Hu and Jinqiao Wu and Fengtao Nan and Yingchun Fan},
+      booktitle = {Proceedings of the Chinese Pattern Recognition and Computer Vision (PRCV)},
       journal={arXiv preprint arXiv:2506.02736},
       year={2025}
 }
