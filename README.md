@@ -9,8 +9,8 @@
 <img alt="FORK" src="https://img.shields.io/github/forks/qingshufan/GeneA-SLAM2?color=white" />
 </a>  [![GitHub Issues](https://img.shields.io/github/issues/qingshufan/GeneA-SLAM2.svg)](https://github.com/qingshufan/GeneA-SLAM2/issues) [![License](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://opensource.org/licenses/gpl-3-0)
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/genea-slam2-dynamic-slam-with-autoencoder/semantic-slam-on-tum-rgb-d)](https://paperswithcode.com/sota/semantic-slam-on-tum-rgb-d?p=genea-slam2-dynamic-slam-with-autoencoder)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/genea-slam2-dynamic-slam-with-autoencoder/semantic-slam-on-bonn-rgb-d-dynamic)](https://paperswithcode.com/sota/semantic-slam-on-bonn-rgb-d-dynamic?p=genea-slam2-dynamic-slam-with-autoencoder)
+<p align="center"> <strong>Chinese Conference on Pattern Recognition and Computer Vision (PRCV) 2025</strong></p>
+
 
 ![overview](assets/overview.png)
 
