@@ -102,6 +102,9 @@ ORB-SLAM3 is released under a [GPLv3 license](https://github.com/UZ-SLAMLab/ORB_
 ## Acknowledgement
 We adapted some codes from some awesome repositories including [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3), [NGD-SLAM](https://github.com/yuhaozhang7/NGD-SLAM) and [ORBSLAM2_with_pointcloud_map](https://github.com/gaoxiang12/ORBSLAM2_with_pointcloud_map.git). Thanks for making codes publicly available. 
 
+## Star History
+[![Star History Chart](https://api.star-history.com/svg?repos=qingshufan/GeneA-SLAM2&type=date&legend=top-left)](https://www.star-history.com/#qingshufan/GeneA-SLAM2&type=date&legend=top-left)
+
 ## Citation
 
 If you find this project useful, please consider citing:
