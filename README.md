@@ -28,6 +28,8 @@ We have collected the GeneA-SLAM RGB-D dataset compatible with the [TUM](https:/
 ## Prerequisites
 GeneA-SLAM2 is developed based on [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) and [NGD-SLAM](https://github.com/yuhaozhang7/NGD-SLAM). Tested on Ubuntu 18.04; compatible with other platforms. High-performance hardware is recommended for real-time stability. Below are the core dependencies (largely inherited from [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) and [NGD-SLAM](https://github.com/yuhaozhang7/NGD-SLAM) with minor optimizations):
 
+**We recommend configuring on Ubuntu 18.04.**
+
 ### PCL (Point Cloud Library)
 For 3D point cloud processing, Install via package manager:
 ```
@@ -108,12 +110,32 @@ We adapted some codes from some awesome repositories including [ORB-SLAM3](https
 ## Citation
 
 If you find this project useful, please consider citing:
+
 ```bibtex
-@inproceedings{qing2025geneaslam2, 
-      title={GeneA-SLAM2: Dynamic SLAM with AutoEncoder-Preprocessed Genetic Keypoints Resampling and Depth Variance-Guided Dynamic Region Removal}, 
-      author={Shufan Qing and Anzhen Li and Qiandi Wang and Yuefeng Niu and Mingchen Feng and Guoliang Hu and Jinqiao Wu and Fengtao Nan and Yingchun Fan},
-      booktitle = {Proceedings of the Chinese Pattern Recognition and Computer Vision (PRCV)},
-      journal={arXiv preprint arXiv:2506.02736},
-      year={2025}
+@inbook{qing2025geneaslam2,
+ title={GeneA-SLAM2: Dynamic SLAM with AutoEncoder-Preprocessed Genetic Keypoints Resampling and Depth Variance-Guided Dynamic Region Removal},
+ ISBN={9789819557400},
+ ISSN={1611-3349},
+ url={http://dx.doi.org/10.1007/978-981-95-5740-0_7},
+ DOI={10.1007/978-981-95-5740-0_7},
+ booktitle={Pattern Recognition and Computer Vision},
+ publisher={Springer Nature Singapore},
+ author={Qing, Shufan and Li, Anzhen and Wang, Qiandi and Niu, Yuefeng and Feng, Mingchen and Hu, Guoliang and Wu, Jinqiao and Nan, Fengtao and Fan, Yingchun},
+ year={2026},
+ pages={93--107}
+}
+```
+
+```bibtex
+@inproceedings{qing2024geneaslam,
+ title={GeneA-SLAM: Enhancing SLAM with Genetic Algorithm-Based Feature Points Re-sampling},
+ url={http://dx.doi.org/10.1109/icairc64177.2024.10900093},
+ DOI={10.1109/icairc64177.2024.10900093},
+ booktitle={2024 4th International Conference on Artificial Intelligence, Robotics, and Communication (ICAIRC)},
+ publisher={IEEE},
+ author={Qing, Shufan and Li, Anzhen and Liu, Jiacheng and Gao, Yang and Feng, Mingchen and Nan, Fengtao and Hu, Guoliang and Wu, Jinqiao and Fan, Yingchun},
+ year={2024},
+ month=dec,
+ pages={1042--1047}
 }
 ```
