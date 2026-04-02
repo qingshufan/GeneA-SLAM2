@@ -31,12 +31,13 @@
  PointCloudMapping::PointCloudMapping(double resolution_)
  {
      this->resolution = resolution_;
+     denseMap = true;
 
      std::cout << "resolution:" << resolution << std::endl;
 
      voxel.setLeafSize( resolution, resolution, resolution);
-     globalMap = boost::make_shared< PointCloud >( );
- 
+     globalMap = std::make_shared< PointCloud >( );
+
      viewerThread = make_shared<thread>( bind(&PointCloudMapping::viewer, this ) );
  }
  

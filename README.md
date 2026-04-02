@@ -31,17 +31,13 @@ GeneA-SLAM2 is developed based on [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_
 **We recommend configuring on Ubuntu 18.04.**
 
 ### PCL (Point Cloud Library)
-For 3D point cloud processing, Install via package manager:
-```
-sudo apt-get install libpcl-dev
-```
-Or build from source: [Install Guide](https://github.com/PointCloudLibrary/pcl)  
+For 3D point cloud processing, we recommend building PCL 1.15+ from [PointCloudLibrary](https://github.com/PointCloudLibrary/pcl/releases/tag/pcl-1.15.1).  
 
 ### YOLO (Included in Thirdparty folder)  
 It adopts the C++ version of the [YOLO-fastest](https://github.com/dog-qiuqiu/Yolo-Fastest.git) model from [hpc203/yolov34-cpp-opencv-dnn](https://github.com/hpc203/yolov34-cpp-opencv-dnn). The model configuration and pre-trained weights are stored in the *Thirdparty* folder and loaded via OpenCV.
 
-### C++11 or C++0x Compiler
-Requires a C++11-compatible compiler (for threading/chrono features).
+### C++17 Compiler
+PCL 1.15+ requires C++17, and we have upgraded the repository.
 
 ### Pangolin
 For visualization UI: [Install Guide](https://github.com/stevenlovegrove/Pangolin).  
@@ -56,13 +52,6 @@ For linear algebra (required by g2o): [Install Guide](http://eigen.tuxfamily.org
 - **DBoW2**: Modified for improved place recognition.  
 - **g2o**: Modified for optimized non-linear optimization.  
 Both are in the `Thirdparty` folder (BSD licensed).  
-
-## Python
-Required to calculate the alignment of the trajectory with the ground truth. **Required Numpy module**.
-
-* (win) http://www.python.org/downloads/windows
-* (deb) `sudo apt install libpython2.7-dev`
-* (mac) preinstalled with osx
 
 ### ROS (optional)
 We recommend using the [automated tool](https://github.com/fishros/install) to install the **Melodic Desktop Full** version of the ROS system on **Ubuntu 18.04**. The step is optional.
